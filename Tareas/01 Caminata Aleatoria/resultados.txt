@@ -1,0 +1,3 @@
+Emiliano Abascal Gurria A01023234
+A)La probabilidad de que caiga a dos o menos cuardas es de 0.4306%.
+B)La posición en donde más veces cae es en [0, 0] y la probabilidad de que caiga ahi es de 6.078%.
