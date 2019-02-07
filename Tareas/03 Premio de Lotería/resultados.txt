@@ -1,0 +1,36 @@
+A)Los numeros que mas se repiten son: [40, 6, 3, 36, 43, 1] y se repitieron [786, 776, 775, 768, 792, 2086] respectivamente.
+B)Dado que en este inciso salían siempre resultados muy variados, se paralelizo con hilos (32) y se sacó el promedio de numero de boletos de cada resultado de cada hilo, determinando que se necesitaron 75123983.21875 boletos en promedio para poder ganar el premio (El programa tardó en total 5 horas con 14 minutos y 30 segundos) A continuación la salida del programa:
+(Numero de Thread, Numero de lotería sacado del inciso A, Numero de lotería Ganador, Número de boletos que se tuvieron que comprar para ganar.)
+El thread 2 ha acabado [40, 6, 3, 36, 43, 1] [6, 3, 43, 40, 36, 1] Con 5406834 boletos.
+El thread 18 ha acabado [40, 6, 3, 36, 43, 1] [36, 43, 3, 1, 40, 6] Con 9503091 boletos.
+El thread 22 ha acabado [40, 6, 3, 36, 43, 1] [36, 1, 40, 3, 43, 6] Con 12886004 boletos.
+El thread 1 ha acabado [40, 6, 3, 36, 43, 1] [43, 40, 6, 36, 3, 1] Con 13526820 boletos.
+El thread 25 ha acabado [40, 6, 3, 36, 43, 1] [1, 3, 36, 43, 40, 6] Con 13487875 boletos.
+El thread 0 ha acabado [40, 6, 3, 36, 43, 1] [36, 6, 1, 40, 43, 3] Con 24266169 boletos.
+El thread 17 ha acabado [40, 6, 3, 36, 43, 1] [3, 40, 6, 43, 36, 1] Con 26526694 boletos.
+El thread 31 ha acabado [40, 6, 3, 36, 43, 1] [36, 43, 3, 1, 40, 6] Con 29004759 boletos.
+El thread 3 ha acabado [40, 6, 3, 36, 43, 1] [43, 36, 6, 3, 40, 1] Con 29835797 boletos.
+El thread 13 ha acabado [40, 6, 3, 36, 43, 1] [40, 6, 1, 36, 43, 3] Con 36929027 boletos.
+El thread 5 ha acabado [40, 6, 3, 36, 43, 1] [3, 43, 36, 1, 40, 6] Con 39439182 boletos.
+El thread 14 ha acabado [40, 6, 3, 36, 43, 1] [43, 40, 1, 36, 3, 6] Con 39769065 boletos.
+El thread 4 ha acabado [40, 6, 3, 36, 43, 1] [36, 1, 6, 40, 43, 3] Con 40887137 boletos.
+El thread 9 ha acabado [40, 6, 3, 36, 43, 1] [36, 43, 1, 3, 40, 6] Con 42485913 boletos.
+El thread 24 ha acabado [40, 6, 3, 36, 43, 1] [1, 40, 43, 6, 36, 3] Con 59346732 boletos.
+El thread 23 ha acabado [40, 6, 3, 36, 43, 1] [1, 6, 36, 43, 40, 3] Con 59606537 boletos.
+El thread 15 ha acabado [40, 6, 3, 36, 43, 1] [36, 1, 6, 43, 40, 3] Con 74270704 boletos.
+El thread 8 ha acabado [40, 6, 3, 36, 43, 1] [40, 3, 36, 43, 1, 6] Con 76246956 boletos.
+El thread 16 ha acabado [40, 6, 3, 36, 43, 1] [40, 36, 6, 1, 43, 3] Con 79830368 boletos.
+El thread 20 ha acabado [40, 6, 3, 36, 43, 1] [6, 43, 3, 40, 36, 1] Con 80465880 boletos.
+El thread 12 ha acabado [40, 6, 3, 36, 43, 1] [40, 1, 6, 43, 36, 3] Con 84786780 boletos.
+El thread 30 ha acabado [40, 6, 3, 36, 43, 1] [40, 36, 1, 43, 6, 3] Con 91675209 boletos.
+El thread 11 ha acabado [40, 6, 3, 36, 43, 1] [43, 3, 36, 1, 40, 6] Con 92991752 boletos.
+El thread 26 ha acabado [40, 6, 3, 36, 43, 1] [43, 3, 36, 6, 40, 1] Con 98678068 boletos.
+El thread 7 ha acabado [40, 6, 3, 36, 43, 1] [6, 1, 43, 40, 36, 3] Con 101383713 boletos.
+El thread 6 ha acabado [40, 6, 3, 36, 43, 1] [43, 36, 3, 6, 40, 1] Con 101011862 boletos.
+El thread 29 ha acabado [40, 6, 3, 36, 43, 1] [43, 36, 1, 6, 40, 3] Con 143504068 boletos.
+El thread 27 ha acabado [40, 6, 3, 36, 43, 1] [6, 43, 36, 40, 3, 1] Con 152519750 boletos.
+El thread 21 ha acabado [40, 6, 3, 36, 43, 1] [3, 40, 36, 43, 6, 1] Con 159439512 boletos.
+El thread 19 ha acabado [40, 6, 3, 36, 43, 1] [40, 43, 6, 36, 3, 1] Con 176275224 boletos.
+El thread 10 ha acabado [40, 6, 3, 36, 43, 1] [1, 6, 40, 36, 43, 3] Con 200809312 boletos.
+El thread 28 ha acabado [40, 6, 3, 36, 43, 1] [6, 36, 1, 40, 43, 3] Con 207170669 boletos.
+En promedio se necesitan 75123983.21875 Boletos.

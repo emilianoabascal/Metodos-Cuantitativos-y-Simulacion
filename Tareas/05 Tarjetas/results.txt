@@ -1,0 +1,18 @@
+Las creditos son de : 237800000
+n de creditos:  14991
+mediana creditos: 100000.0
+media creditos: 91321.044546851
+varianza creditos 2038731031.7814255
+desviacion estandar creditos es:  45152.30926299812
+moda creditos:  50000
+intervalos de confianza creditos (91321.044546851, 89585.67104830961, 93056.41804539239)
+comisiones 951200
+n comisiones  14991
+media comision 365.284178187404
+mediana comision 400.0
+varianza comisiones 32619.696508502813
+desviacion estandar comision 180.60923705199247
+moda comision 200
+intervalos confianza  (365.284178187404, 358.3426841932384, 372.22567218156956)
+creditos mujeres 5000 10000 - 15000: 1083 547 184
+creditos hombres 5000 - 10000 - 15000 - 20000): 95 302 244 149
