@@ -1,10 +1,9 @@
+#Emiliano Abascal Gurria A01023234
 import random
-import time
-import multiprocessing
 
 daysOfSimulation = 30
 nOfEmployees = 60
-sizeOfTeam = 3
+sizeOfTeam = 5
 
 def randomProbability(i, j):
 	return int(random.randint(i,j*1000)/1000)
@@ -271,40 +270,8 @@ def simulation(days, nOfEmployees, teamSize):#Main Simulation
 	teams.clear()
 	trucksWaiting.clear()
 	trucksAttended.clear()
-	
 	return totalCost
 	
 
 def parallelRun(nOfSimulations):
 	return simulation(daysOfSimulation, nOfEmployees, sizeOfTeam)
-
-
-nOfSimulations = 50000
-
-#Paralelo
-startTime = time.time()
-costAvg = 0
-pool = multiprocessing.Pool()
-costPerSimulation = pool.map(parallelRun, range(nOfSimulations))
-pool.close()
-for i in costPerSimulation:
-	costAvg += i
-costAvg = costAvg/(len(costPerSimulation))
-print(costAvg)
-print('Tiempo en terminar {} segundos'.format(time.time() - startTime))
-
-
-##Secuencial
-#startTime = time.time()
-#costAvg = 0
-#costPerSimulation = []
-#for i in range(0, nOfSimulations):
-#	costPerSimulation.append(simulation(daysOfSimulation, nOfEmployees, sizeOfTeam))
-#for j in costPerSimulation:
-#	costAvg += j
-#costAvg = costAvg/(len(costPerSimulation))
-#print(costAvg)
-#print('Tiempo en terminar {} segundos'.format(time.time() - startTime))
-
-
-

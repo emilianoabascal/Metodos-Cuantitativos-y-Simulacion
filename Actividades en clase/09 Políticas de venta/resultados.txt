@@ -1,0 +1,2 @@
+{0: 1025100000, 1: 790200000, 2: 359040000, 'Perdida': 48504}
+La estrategia que maximiza mas la ganancia es comprarlo el el dia 0.

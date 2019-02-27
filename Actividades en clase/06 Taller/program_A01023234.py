@@ -1,3 +1,4 @@
+#Emiliano Abascal Gurria A01023234
 import random
 import time
 import math
@@ -95,10 +96,10 @@ startTime = time.time()
 nOfSimulations = 50000
 costPerDay = []
 
-##Paralelo
-#pool = multiprocessing.Pool()
-#costPerDay = pool.map(getCostForEachDay, range(nOfSimulations))
-#pool.close()
+#Paralelo
+pool = multiprocessing.Pool()
+costPerDay = pool.map(getCostForEachDay, range(nOfSimulations))
+pool.close()
 
 ##Secuencial
 #for i in range(nOfSimulations):

@@ -1,0 +1,18 @@
+Emiliano Abascal Gurria A01023234
+Simulación llevada a cabo con un grupo de 60 empleados distribuidos en equipos de 3, 4 y 5 personas, simula el funcionamiento 24 horas del día del almacen durante 30 días para obtener el costo total en este periodo de tiempo (esto se simula 50000 veces) y se promedian los costos de cada simulación.
+
+Resultados:
+
+Simulación con equipo de 3 empleados (En paralelo*):
+Costo Promedio: 416918.2551249982
+Tiempo en terminar 83.39539194107056 segundos.
+
+Simulación con equipo de 4 empleados (En paralelo*):
+Costo Promedio: 435325.4618333326
+Tiempo en terminar 78.53571701049805 segundos.
+
+Simulación con equipo de 5 empleados (En paralelo*):
+Costo Promedio: 453727.3522916661
+Tiempo en terminar 81.99275875091553 segundos.
+
+*Paralelo no funciona en Windows
